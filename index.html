@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tag -->
+    <meta name="title" content="portfolio">
+    <meta name="description" content="portfolio website ">
+    <meta name="keywords" content="full stack web developer ,   web developer , full stack web developer ">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="ABU JAFOR">
+
+    <title>Idak</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/604b54fd81.js" crossorigin="anonymous"></script>
+
+    <!-- css links -->
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- header start -->
+        <header >
+            <div class="container">
+            <div class="row align-items-center">
+            <div class="col-lg-2 col-md-3 col-3 mp-0">
+                <div class="logo">
+                    <img src="img/idkloog.png" alt="idk" class="w-100">
+                </div>
+            </div>
+            <div class="offset-xl-1 col p-0 ">
+                <nav class="nav navbar-expand-lg">
+                    <button class="navbar-toggler d-lg-block ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#fea-collapse" aria-controls="fea-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=" d-lg-none d-md-block  "><i class="fa-solid fa-bars"></i></span>
+                    <div class="collapse navbar-collapse " id="fea-collapse">
+                        <ul class="list-inline ">
+                            <li class="list-inline-item"><a href="#">Home</a></li>
+                            <li class="list-inline-item"><a href="#">Rentals</a></li>
+                            <li class="list-inline-item"><a href="#">Categories</a></li>
+                            <li class="list-inline-item"><a href="#">About Us</a></li>
+                            <li class="list-inline-item"><a href="#">Contact</a></li>
+                            <li class="list-inline-item"><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-4 col-md-4 col-7 me-sm-auto p-0">
+                <nav>
+                    <ul class="list-inline d-flex ">
+                        <li class="list-inline-item h_right m-0 d-lg-block d-md-none d-sm-none "><a href="#"  class="sign m-0"><i class="bi bi-person"></i>Sign in</a></li>
+                        <li class="list-inline-item h_right m-0"><a href="#"  class="post m-0"><i class="bi bi-plus-lg"></i>Post Listing</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+            </div>
+        </header>
+    <!-- header end -->
+    <!-- banner start -->
+        <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12  ">
+                    <div class="bannertext text-center">
+                        <h1 class="b_h1 ">Discover Your <span>Perfect Rental</span></h1>
+                        <p class="b_textp">Rent Cars, Houses, and Items in Just a Few Clicks</p>
+                        <ul class="list-inline b_list">
+                            <li class="list-inline-item"><a href="#">Places</a></li>
+                            <li class="list-inline-item"><a href="#">Rides</a></li>
+                            <li class="list-inline-item"><a href="#">Things</a></li>
+                        </ul>
+                        <!-- lg and avobe -->
+                        <div class="search_bar d-flex ">
+                            <div class="se_left ">
+                                <i class="bi bi-search"></i>
+                                <input type="text" placeholder="Search for cars, houses, and more.....">
+                            </div>
+                            <div class="line"></div>
+                            <div class="se_right d-flex ">
+                                <div class="dropdown">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <button class="dr_title p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Select Location
+                                     <i class="bi bi-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Dhaka</a></li>
+                                        <li><a class="dropdown-item" href="#">Gazipur</a></li>
+                                        <li><a class="dropdown-item" href="#">Sylhet</a></li>
+                                        <li><a class="dropdown-item" href="#">Rangpur</a></li>
+                                        <li><a class="dropdown-item" href="#">Chittagong</a></li>
+                                      </ul>
+                                </div>
+                                <button type="submit" class="sr_btn p-0"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                        <!-- md and down -->
+                      <div class="row d-lg-none d-md-block">
+                          <div class="search_md d-flex ">
+                              <div class="col-sm-12 col-12">
+                                <div class="se_left semd md_d  m-0">
+                                    <input class="se_input  m-0" type="text" placeholder="Search for cars, houses, and more.......">
+                                    <i class="bi bi-search micon"></i>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-sm-12 col-12">
+                            <div class="se_right sermd ">
+                                <div class="dropdown">
+                                    <div class="se_left semd m-0">
+                                        <input class="se_input  m-0" type="text" placeholder="Select Location">
+                                        <i class="bi bi-geo-alt micon miseicon"></i>
+                                        <button class="dr_title p-0 m-0 serdp" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                         <i class="bi bi-chevron-down"></i>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Dhaka</a></li>
+                                            <li><a class="dropdown-item" href="#">Gazipur</a></li>
+                                            <li><a class="dropdown-item" href="#">Sylhet</a></li>
+                                            <li><a class="dropdown-item" href="#">Rangpur</a></li>
+                                            <li><a class="dropdown-item" href="#">Chittagong</a></li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="search_md  d-flex  justify-content-center">
+                                <div class=" col-md-6 col-sm-8 col-12 ">
+                       
+                                      <div class="semd b_search ">
+                                         <a href="#" class="se_input">Search Now</a>
+                                          <i class="bi bi-search micon"></i>
+                                      </div>
+                     
+                                 </div>
+                            </div>
+                      
+                         <!-- md and down end -->
+                    </div> 
+                </div>
+            </div>
+        </div>
+        </section>
+    <!-- banner end -->
+    <!-- browse catagori start -->
+        <section class="brows">
+            <div class="container">
+                <div class="cm_header text-center">
+                    <h1 class="cm_h1">Browse From Top Categories</h1>
+                    <div class="br_border d-flex justify-content-center ">
+                        <div class="red"></div>
+                        <div class="white"></div>
+                        <div class="red2"></div>
+                    </div> 
+                </div> 
+                    
+
+                <div class="brw_list  d-md-block d-sm-none ">
+                    <ul class="list-inline cm_ul brw_ul d-flex ">
+                        <li class="list-inline-item"><a href="#"><i class="fa-regular fa-thumbs-up io"></i>Holiday Rentals </a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-solid fa-house it"></i>Residential Spaces</a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-regular fa-compass ih"></i>Event Spaces</a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-solid fa-dollar-sign if"></i> Commercial Properties</a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-solid fa-ellipsis ifi"></i>More</a></li> 
+                    </ul>
+                </div>
+                <!-- brows for md and down -->
+                <div class="item_md d-md-none d-sm-block">
+                    <ul class="list-inline  brw_ul br_mdul">
+                            <div class="row">
+                                <div class="col-sm-6  brmd_itm ">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-regular fa-thumbs-up io"></i>Holiday Rentals </a></li>
+                                </div>
+                                <div class="col-sm-6  brmd_itm ">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-solid fa-house it"></i>Residential Spaces</a></li>
+                                </div>
+                                <div class="col-sm-6  brmd_itm ">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-regular fa-compass ih"></i>Event Spaces</a></li>
+                                </div>
+                                <div class="col-sm-6  brmd_itm ">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-solid fa-dollar-sign if"></i> Commercial Properties</a></li>
+                                </div>
+                                <div class="col-sm-12  brmd_itm ">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-solid fa-ellipsis ifi"></i>More</a></li> 
+                                </div>
+                         </div>
+                        </ul>
+                </div>
+                <!-- brows for md and down end-->
+            </div> 
+        </section>
+    <!-- browse catagori end -->
+
+    <!-- feature start -->
+        <section class="fea_list">
+        <div class="container">
+            <div class="cm_header text-center">
+                <h1 class="cm_h1">Featured Listings</h1>
+                <div class="br_border d-flex justify-content-center ">
+                <div class="red"></div>
+                <div class="white"></div>
+                <div class="red2"></div>
+            </div>   
+            </div>
+
+            <div class="frea_itms d-lg-block d-none">
+                <ul class="list-inline cm_ul frea_ul d-flex m-0 " >
+                    <li class="list-inline-item"><a href="#" >All Items (5125)</a></li>
+                    <li class="list-inline-item"><a href="#" >Residential Spaces (64)</a></li>
+                    <li class="list-inline-item"><a href="#" >Sports Venues</a></li>
+                    <li class="list-inline-item"><a href="#" >Meeting Spaces</a></li>
+                    <li class="list-inline-item"><a href="#" >Vans & Buses</a></li> 
+                    <li class="list-inline-item"><a href="#" >Cars & SUVs</a> </li> 
+                    <li class="list-inline-item"><a href="#" >Lorries & Industrial Vehicles </a></li> 
+                    <li id="collapse"><a href="#"><i class="fa-solid fa-greater-than"></i></a></li> 
+                </ul>
+            </div>
+
+            <div class="frea_ele">
+                <!-- items -->
+                <div class="row">
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem1.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item m-0">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item m-0">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item m-0">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem2.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click1" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem3.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- items -->
+                <div class="row">
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem1.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem2.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- elements -->
+                    <div class="col-lg-4">
+                        <div class="elem">
+                            <div class="ele_img">
+                                <img src="img/elem3.jpg" class="w-100" alt="Luxuary villa">
+                            </div>
+
+                                <span class="ele_rent"><a href="#">For Rent</a></span>
+
+                            <div class="ele_txt ">
+                                <div class="ele_pri d-flex">
+                                    <p class="p1">85,000 LKR</p>
+                                    <p class="p2">/Month</p>
+                                </div>
+                            <h3>Luxury villa in Rego Park</h3>
+                            <ul class="list-inline ele_ul d-flex">
+                                <li class="list-inline-item">3 Bedrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2 Bathrooms</li><span class="el_line m-auto"></span>
+                                <li class="list-inline-item">2500 Square FT</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="ele_owner text-center">
+                                <ul class="list-inline d-flex eleow_ul">
+                                    <li class="list-inline-item  ">
+                                        <ul class="list-inline d-flex ">
+                                            <li class="list-inline-item"><a href="#"><img src="img/owner.jpg" alt="owner"></a></li>
+                                            <li class="list-inline-item ">
+                                                <p class="m-0 ow_p">Anne Liza</p>
+                                                <p class="m-0 ">Property Seller</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item ele_item2" ><i id="click" onclick="text()" class="fa-regular fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- load more button -->
+            <div class="lm_button text-center">
+                <a href="#">Load More</a>
+            </div>
+        </div>
+        </section>
+    <!-- feature end -->
+
+    <!-- statistics part start -->
+        <section class="statis">
+            <div class="container">
+                <div class="sta_items">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="sta">
+                                <h2>Insights and Performance Metrics</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 st_main ">
+                            <div class="text text-center">
+                                <h4>5000+</h4>
+                                <p>Total Listings in the System</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 st_main">
+                            <div class="text t_2nd text-center">
+                                <h4>1000+</h4>
+                                <p>Active Listings</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 st_main">
+                            <div class="text text-center">
+                                <h4>30+</h4>
+                                <p>Articles in the Blog</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- statistics part end -->
+
+    <!-- feature location start-->
+        <section class="fe_location">
+            <div class="container">
+                <div class="cm_header text-center">
+                    <h1 class="cm_h1">Featured Locations</h1>
+                    <div class="br_border d-flex justify-content-center ">
+                    <div class="red"></div>
+                    <div class="white"></div>
+                    <div class="red2"></div>
+                </div>   
+                </div>
+                <!-- images -->
+                 <div class="image">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12">
+                            <div class="felo_img">
+                                <img src="img/feloright.jpg" alt="" class="w-100">
+                                <p class="felc_p">Kandy</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12  ">
+                            <div class="row">
+                                <!-- top image -->
+                                <div class="img_top d-flex">
+                                    <div class="col-lg-6 col-md-6 ">
+                                        <div class="feloit_img felo_img">
+                                            <img src="img/felo1.jpg" alt="" class="w-100">
+                                            <p class="felc_p">Anuradhapura</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 ">
+                                        <div class="feloitem_img felo_img">
+                                            <img src="img/felo2.jpg" alt="" class="w-100">
+                                            <p class="felc_p">Badulla</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- bottom imgages -->
+                              <div class="img_bottom d-flex">
+                                <div class="col-lg-6 col-md-6 ">
+                                    <div class="feloit_img felo_img">
+                                        <img src="img/felo3.jpg" alt="" class="w-100">
+                                        <p class="felc_p">Gampaha</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 ">
+                                    <div class="feloitem_img felo_img">
+                                        <img src="img/felo4.jpg" alt="" class="w-100">
+                                        <p class="felc_p">Jaffna</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                            <div class="felo_img felo_img">
+                                <img src="img/feloleft.jpg" alt="" class="w-100">
+                                <p class="felc_p">Colombo</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+    <!-- feature location end -->
+     <!-- imporetnt articles start -->
+     <section class="art">
+        <div class="container">
+            <div class="cm_header text-center">
+                <h1 class="cm_h1">Important Articles</h1>
+                <div class="br_border d-flex justify-content-center ">
+                <div class="red"></div>
+                <div class="white"></div>
+                <div class="red2"></div>
+            </div>   
+            </div>
+            <div class="art_main">
+                <div class="row">
+                    <!-- left -->
+                     <div class="col-lg-6">
+                        <div class="le_img">
+                            <img src="img/arleft.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="le_text">
+                            <p class="let_p1 m-0">February 4, 2023</p>
+                            <h3 class="let_h3">Top Tips for Finding the Perfect Rental</h3>
+                            <p class="let_p2">Discover expert advice on how to find the ideal rental property that meets your needs and budget.</p>
+                        </div>
+                     </div>
+
+                     <!-- right -->
+                     <div class="col-lg-6">
+                        <div class="row">
+                            <!-- itms -->
+                           
+                            <div class="col-lg-4">
+                                <div class="ri_img">
+                                    <img src="img/aritem1.jpg" alt="" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="ri_text">
+                                    <p class="let_p1 ri_p m-0">May 7, 2023</p>
+                                    <h3 class="let_h3 ri_h3 m-0">Car Rental Hacks for a Smooth Journey</h3>
+                                    <p class="let_p2 ri_p2">Learn insider tips for getting the best deals and making the most of your rental car experience.</p>
+                                </div>
+                            </div>
+                            <!-- itms -->
+                            <div class="col-lg-4">
+                                <div class="ri_img">
+                                    <img src="img/aritem1.jpg" alt="" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="ri_text">
+                                    <p class="let_p1 ri_p m-0">April 25, 2023</p>
+                                    <h3 class="let_h3 ri_h3 m-0">Managing Your Rental Items: A Comprehensive Guide</h3>
+                                    <p class="let_p2 ri_p2">Get valuable insights on how to effectively manage and maintain your rented items.</p>
+                                </div>
+                            </div>
+                            <!-- itms -->
+                            <div class="col-lg-4">
+                                <div class="ri_img">
+                                    <img src="img/aritem1.jpg" alt="" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="ri_text">
+                                    <p class="let_p1 ri_p m-0">January 2, 2023</p>
+                                    <h3 class="let_h3 ri_h3 m-0">Navigating the Rental Market: Insights for New Renters</h3>
+                                    <p class="let_p2 ri_p2">Explore key considerations and useful tips for individuals new to the rental market.</p>
+                                </div>
+                            </div>
+                            <!-- itms -->
+                            <div class="col-lg-4">
+                                <div class="ri_img">
+                                    <img src="img/aritem1.jpg" alt="" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="ri_text">
+                                    <p class="let_p1 ri_p m-0">April 7, 2023</p>
+                                    <h3 class="let_h3 ri_h3 m-0">Maximizing Returns: Strategies for Rental Property Owners</h3>
+                                    <p class="let_p2 ri_p2">Learn strategies to optimize the return on investment for your rental property.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- section articles end -->
+     <!-- footer top start -->
+      <section class="footer_top">
+        <div class="container">
+            <div class="fot_items">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="logo_img">
+                            <img src="img/idkloog.png" alt="idak" class="img-fluid">
+                        </div>
+                        <div class="logo_text">
+                            <p class="m-0">Sri Lanka's first & largest platform designed to create an online marketplace exclusively for RENT</p>
+                        </div>
+                        <ul class="list-inline fot_scli">
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-lg-1 ">
+                        <div class="fot_links">
+                            <h3 class="fot_h3 m-0"><a href="#">Navigation</a></h3>
+                            <ul class="fot_ul p-0">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" offset-lg-1 col-lg-2 ">
+                        <div class="fot_links">
+                            <h3 class="fot_h3 m-0"><a href="#">Featured Locations</a></h3>
+                            <ul class="fot_ul p-0">
+                                <li><a href="#">Kandy</a></li>
+                                <li><a href="#">Anuradhapur</a></li>
+                                <li><a href="#">Badulla</a></li>
+                                <li><a href="#">Colombo</a></li>
+                                <li><a href="#">Kaluthara</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <div class="fot_links">
+                            <h3 class="fot_h3 m-0"><a href="#">Help</a></h3>
+                            <ul class="fot_ul p-0">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="fot_links">
+                            <h3 class="fot_h3 m-0"><a href="#">Subscribe to Our Newsletter</a></h3>
+                            <ul class="fot_ul p-0">
+                                <li><p>Stay updated with the latest listings and rental tips.</p></li>
+                                <li><input type="email" placeholder="Emal Address"></li>
+                                <li><button type="submit" class="text-center">Subscribe</button> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- footer top end -->
+      <!-- footer -->
+       <footer>
+        <p class="text-center footer m-0">© Copyright 2024. Designed and Developed by <a href="https://www.facebook.com/abujaforabu.19">Abu Jafor</a></p>
+       </footer>
+      <!-- footer -->
+    <!-- js link -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start */
+  .sign{
+    display: none;
+  }
+  .h_right a{
+    font-size: 14px;
+  }
+  /* common header */
+ .cm_h1 {
+  font-size: 40px;
+ }
+  /* borws */
+  .cm_header {
+    margin: 40px 0 30px;
+  }
+ /* banner start */
+ .b_h1 {
+  font-size: 40px;
+ }
+ .b_textp {
+  font-size: 18px;
+  line-height: 28px;
+}
+.b_list {
+  margin: 35px 0 24px;
+}
+.b_list li {
+  margin: 0;
+}
+ .bannertext {
+  margin: 110px 0 270px
+}
+.search_bar {
+  display: none !important;
+  height: 50px;
+}
+.se_input {
+  padding: 15px 20px 15px;
+  border-radius: 47px;
+}
+.sermd {
+  margin: 0;
+  padding: 10px 0;
+}
+.micon {
+  left: 6%;
+}
+.miseicon {
+  left: 4%;
+}
+/* brows */
+.brw_list {
+  display: none;
+}
+
+.ele_ul li{
+  font-size: 12px;
+  margin: 0px !important;
+}
+/* fea list */
+.lm_button {
+  margin: 40px 0 55px;
+}
+/* statistics */
+.statis {
+  padding: 50px 0;
+}
+/* location section */
+.felo_img{
+  margin-bottom: 20px;
+}
+/* footer part */
+.footer_top {
+  margin-top: 80px;
+  padding: 50px 0 0;
+}
+}
+
+/* Small devices (landscape phones, 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .post {
+    margin-left: 5px;
+    padding: 16px 10px;
+  }
+  /* common header */
+ .cm_h1 {
+  font-size: 40px;
+ }
+ /* borws */
+ .cm_header {
+  margin: 60px 0 40px;
+}
+/* fea list */
+.lm_button {
+  margin: 40px 0 80px;
+}
+  /* banner start */
+  .bannertext {
+    margin: 110px 0 270px
+  }
+.search_bar {
+  display: none !important;
+  height: 50px;
+}
+.md_d{
+  padding: 15px 80px 15px;
+}
+.search_md{
+  text-align: center;
+}
+.micon {
+  top: 33%;
+  left: 19%;
+}
+.miseicon{
+  top: 20%;
+  left: 12%;
+}
+.serdp {
+  left: 78%;
+}
+/* statistics */
+.sta h2, .text h4 {
+  font-size: 35px;
+}
+/* location section */
+.felo_img{
+  margin-bottom: 20px;
+}
+/* footer part */
+.footer_top {
+  margin-top: 80px;
+  padding: 50px 0 50px;
+}
+ }
+
+/* Medium devices (tablets, 768px and 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ /* header start */
+ .post{
+  justify-content: right !important;
+ }
+ 
+ /* header end */
+ /* common header */
+ .cm_h1 {
+  font-size: 40px;
+ }
+ /* brows */
+ .cm_header {
+  margin: 60px 0 40px;
+}
+/* banner start */
+.bannertext {
+  margin: 130px 0 300px;
+}
+.search_bar {
+  display: none !important;
+  height: 70px;
+}
+.b_h1 {
+  font-size: 60px;
+}
+.b_textp {
+  font-size: 28px;
+}
+.brw_ul li {
+  font-size: 13px;
+  padding: 10px 7px 10px 0;
+}
+.brw_ul li i {
+  margin: 3px;
+  padding: 5px;
+}
+/* banner end */
+/* fea list */
+.lm_button {
+  margin: 40px 0 80px;
+}
+/* fea list end */
+/* location section */
+.felo_img{
+  margin-bottom: 20px;
+}
+/* footer part */
+.footer_top {
+  margin-top: 80px;
+  padding: 50px 0 50px;
+}
+}
+
+/* Large devices (desktops, 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* header start */
+.nav ul li {
+  padding: 0 5px 0;
+}
+.h_right .sign {
+  padding: 15px 15px;
+}
+.post {
+  padding: 15px 20px;
+}
+/* header end */
+/* banner start */
+.b_h1 {
+    font-size: 60px;
+}
+.b_textp {
+    font-size: 28px;
+}
+.search_bar {
+    display: block;
+    height: 70px;
+}
+
+ .se_left {
+    padding: 20px 0 0;
+  }
+  .se_right{
+    padding: 20px 0 0;
+  }
+  /* search avobe */
+  .line {
+    height: 70px;
+  }
+/* banner end */
+/* brows catagori start */
+.cm_h1 {
+    font-size: 45px;
+}
+.brw_ul li {
+    padding: 5px 10px 3px 3px;
+}
+.brw_ul li i {
+    margin: 5px 6px 5px 5px;
+}
+.ele_ul li {
+    font-size: 12px;
+   }
+}
+/* brows catagori end */
+/* statics part start */
+.t_2nd{
+  padding-bottom: 90px;
+}
+/* statistics part end */
+/* footer top */
+.fot_ul li input[placeholder] {
+    padding: 19px 019px 20px;
+  }
+.fot_ul button {
+    padding: 15px 75px;
+}
+/* footer top end */
+
+/* Extra large devices (large desktops, 1200px and 1399px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* header */
+  .nav ul li {
+    padding-right: 5px;
+  }
+/*  feature brows  */
+.ele_ul li {
+   font-size: 12px;
+  }
+}
+
+/* Extra Extra  devices (large desktops, 1400px and up) */
+@media (min-width: 1400x) { 
+
+}
